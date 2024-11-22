@@ -1,0 +1,57 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole header */
+header {
+    background-color: rgb(25, 193, 219);
+    /* width: 100%; */
+    height: 60px;
+    
+        
+}
+/* regole nav generali */
+#main-nav{
+    display: flex;
+    justify-content: center;          
+    
+}
+
+#main-nav div{
+    background-color: yellow;
+    border: 1px solid black;
+    border-style: dashed;
+    height: 35px;
+    align-content: center; 
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    
+    }
+    /* regole figli nav */
+#lista-link{
+    display: flex;  
+    align-items: center;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;    
+                       
+}
+.small-nav{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#accedi{    
+      align-items: flex-end;      
+}
+
+
+/* main */
