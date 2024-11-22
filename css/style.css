@@ -60,5 +60,20 @@ ul{
     margin-right: 5px;
 }
 
+/* inizio regole main */
 
-/* main */
+ /* regole macrosezione 1 */
+.jumbotron{
+    background-color: rgb(206, 22, 56);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron div{
+    background-color: green;
+    height: 70%;
+    width: 70%;
+    border: 1px solid black;
+    border-style: dashed;
+}
