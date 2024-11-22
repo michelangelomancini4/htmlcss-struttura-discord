@@ -25,32 +25,39 @@ header {
     border: 1px solid black;
     border-style: dashed;
     height: 35px;
+    margin-top: 11px;
     align-content: center; 
     flex-basis: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     
     }
     /* regole figli nav */
 #lista-link{
     display: flex;  
-    align-items: center;
-    
+    align-items: center;    
 }
 
 ul{
     list-style: none;
-    display: flex;    
-                       
+    display: flex; 
+    gap: 3px; 
+    margin: 0 130px;                     
 }
+/* regole tasti laterali */
 .small-nav{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+        
 }
 
 #accedi{    
       align-items: flex-end;      
+}
+.small-nav span{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
