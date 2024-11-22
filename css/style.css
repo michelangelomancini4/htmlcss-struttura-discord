@@ -102,3 +102,11 @@ ul{
     
 }
 /* macrosezione3 */
+.macrosezione2 #inversa{
+    display: flex;
+}
+/* macrosezione3 */
+#inversa :last-child{
+    order: -1;       
+
+}
