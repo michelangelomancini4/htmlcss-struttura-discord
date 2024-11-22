@@ -102,11 +102,24 @@ ul{
     
 }
 /* macrosezione3 */
-.macrosezione2 #inversa{
-    display: flex;
+ #inversa{    
+        display: flex;
+        background-color: rgb(22, 150, 213);
+       
 }
 /* macrosezione3 */
 #inversa :last-child{
     order: -1;       
 
 }
+ /* macrosezione5 */
+ #sezione5 {
+    height: 700px;
+ }
+ #sezione5 div{
+    background-color: rgb(161, 207, 8);
+    height: 80%;
+    width: 70%;
+    border: 1px solid black;
+    border-style: dashed;
+ }
